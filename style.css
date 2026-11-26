@@ -1,0 +1,11 @@
+:root { color-scheme: light dark; --bg: #0a1024; --fg: #eef3ff; --dim: #8390b8; --accent: #3fd8ff; }
+body { margin: 0; background: radial-gradient(circle at 50% 0, #16224a, var(--bg) 70%) fixed; color: var(--fg);
+  font: 17px/1.6 "Segoe UI", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 24px 24px; }
+h1 { font-size: 2.2rem; margin: 0 0 .4em; }
+h2 { font-size: 1.2rem; margin: 1.8em 0 .4em; color: var(--accent); }
+.lead { font-size: 1.15rem; }
+.muted, footer { color: var(--dim); }
+a { color: var(--accent); }
+code { background: #ffffff14; padding: 1px 5px; border-radius: 4px; }
+footer { text-align: center; padding: 24px; font-size: .9rem; }
